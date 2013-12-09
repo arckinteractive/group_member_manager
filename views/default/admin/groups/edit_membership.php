@@ -10,4 +10,6 @@ if (!$group || !elgg_instanceof($group, 'group')) {
 
 $vars['group'] = $group;
 
+echo elgg_view_entity($group, array('full_view' => false));
+
 echo elgg_view_form('group_member_manager/update_membership', array(), $vars);
