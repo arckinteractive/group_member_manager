@@ -11,7 +11,11 @@ $english = array(
 	'group_member_manager:error:invalid:guid' => 'Invalid GUID',
 	'admin:groups:edit_membership' => "Edit Membership",
 	'group_member_manager:cannot:remove:owner' => "The group owner (%s) cannot be removed from the group",
+	'group_member_manager:cannot:remove:owner:from_group' => "This user is the owner of the group (%s) and cannot be removed",
 	'group_member_manager:membership:updated' => "Group membership has been updated",
+	'group_member_manager:user_hover' => 'Manage Groups',
+	'group_member_manager:error:invalid:username' => "Invalid username",
+	'admin:users:managegroups' => "Manage Groups",
 );
 
 add_translation("en", $english);
