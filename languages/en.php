@@ -15,7 +15,11 @@ $english = array(
 	'group_member_manager:membership:updated' => "Group membership has been updated",
 	'group_member_manager:user_hover' => 'Manage Groups',
 	'group_member_manager:error:invalid:username' => "Invalid username",
+	'group_member_manager:error:invalid:group' => "Invalid group",
 	'admin:users:managegroups' => "Manage Groups",
+	'group_member_manager:nogroups' => "No Groups",
+	'group_member_manager:membership:joined' => "Successfully joined the group '%s'",
+	'group_member_manager:membership:left' => "Successfully left the group '%s'"
 );
 
 add_translation("en", $english);

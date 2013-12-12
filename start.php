@@ -8,6 +8,10 @@ function group_member_manager_init() {
 	elgg_register_simplecache_view('css/group_member_manager/css');
 	elgg_register_css('group_member_manager', $css);
 	
+	$js = elgg_get_simplecache_url('js', 'group_member_manager/js');
+	elgg_register_simplecache_view('js/group_member_manager/js');
+	elgg_register_js('group_member_manager', $js);
+	
 	elgg_register_admin_menu_item('administer', 'groups');
 	elgg_register_admin_menu_item('administer', 'member_manager', 'groups');
 	
